@@ -37,6 +37,9 @@
     <Compile Include="bower_components\angular-animate\angular-animate.min.js" />
     <Compile Include="bower_components\angular-cookies\angular-cookies.js" />
     <Compile Include="bower_components\angular-cookies\angular-cookies.min.js" />
+    <Compile Include="bower_components\angular-markdown-directive\karma.conf.js" />
+    <Compile Include="bower_components\angular-markdown-directive\markdown.js" />
+    <Compile Include="bower_components\angular-markdown-directive\markdown.spec.js" />
     <Compile Include="bower_components\angular-mocks\angular-mocks.js" />
     <Compile Include="bower_components\angular-resource\angular-resource.js" />
     <Compile Include="bower_components\angular-resource\angular-resource.min.js" />
@@ -193,6 +196,12 @@
     <Content Include="bower_components\angular-cookies\angular-cookies.min.js.map" />
     <Content Include="bower_components\angular-cookies\bower.json" />
     <Content Include="bower_components\angular-cookies\README.md" />
+    <Content Include="bower_components\angular-markdown-directive\.bower.json" />
+    <Content Include="bower_components\angular-markdown-directive\.gitignore" />
+    <Content Include="bower_components\angular-markdown-directive\.travis.yml" />
+    <Content Include="bower_components\angular-markdown-directive\bower.json" />
+    <Content Include="bower_components\angular-markdown-directive\package.json" />
+    <Content Include="bower_components\angular-markdown-directive\README.md" />
     <Content Include="bower_components\angular-mocks\.bower.json" />
     <Content Include="bower_components\angular-mocks\bower.json" />
     <Content Include="bower_components\angular-mocks\README.md" />
@@ -322,6 +331,7 @@
     <Folder Include="bower_components\" />
     <Folder Include="bower_components\angular-animate\" />
     <Folder Include="bower_components\angular-cookies\" />
+    <Folder Include="bower_components\angular-markdown-directive\" />
     <Folder Include="bower_components\angular-mocks\" />
     <Folder Include="bower_components\angular-resource\" />
     <Folder Include="bower_components\angular-route\" />
