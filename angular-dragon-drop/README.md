@@ -1,3 +1,5 @@
+Sample Angular Component shamelessly cloned from https://github.com/btford/angular-dragon-drop
+
 # angular-dragon-drop
 "Drag and drop" directives for AngularJS. Work in progress.
 
