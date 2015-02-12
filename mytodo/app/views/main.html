@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>My todos</h2>
+  <h2>Simple todos</h2>
 
   <!-- Todos input -->
   <form role="form" ng-submit="addTodo()">
@@ -19,7 +19,12 @@
         <span class="input-group-btn">
           <button class="btn btn-danger" ng-click="removeTodo($index)" aria-label="Remove">X</button>
         </span>
+<!--        <span class="input-group-btn btn">
+            <core-icon icon="account-box"></core-icon>
+            <paper-ripple class="circle recenteringTouch" fit></paper-ripple>
+        </span>-->
       </p>
     </div>
+
   </form>
 </div>

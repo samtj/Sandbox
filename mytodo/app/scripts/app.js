@@ -30,10 +30,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/sample', {
-                templateUrl: '../bower_components/sample-component/app/views/sample.html',
-                controller: 'SampleCtrl'
-            })
+      //.when('/sample', {
+      //          templateUrl: '../bower_components/sample-component/app/views/sample.html',
+      //          controller: 'SampleCtrl'
+      //      })
       .when('/home', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'

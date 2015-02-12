@@ -6,3 +6,7 @@ dist
 bower_components
 obj
 .tmp
+*.dat
+*.njsproj
+*.sln
+*.suo

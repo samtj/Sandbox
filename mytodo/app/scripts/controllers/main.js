@@ -9,7 +9,7 @@
  */
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope) {
-        $scope.todos = ['Checkout Bower', 'Grunt It', 'Create Angular Module'];
+        $scope.todos = ['Checkout Bower', 'Create Angular Module', 'Package It', 'Version It', 'Install It'];
 
         $scope.addTodo = function () {
             $scope.todos.push($scope.todo);
